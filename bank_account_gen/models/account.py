@@ -3,7 +3,7 @@
 from mongoengine import *
 from werkzeug.security import safe_str_cmp
 from flask import jsonify
-from garnet_api.security.entropy import gen_salt, compute_hash
+from bank_account_gen.security.entropy import gen_salt, compute_hash
 import datetime
 
 

@@ -1,4 +1,4 @@
-from garnet_api import app
+from bank_account_gen import app
 from flask import jsonify
 
 
